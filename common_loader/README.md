@@ -1,16 +1,28 @@
 # common_loader
 
-A new Flutter project.
+# Flutter Load Screen
+
+This Flutter package provides a customizable loading screen overlay. It uses `LoadingOverlay` for managing the loading state and `SpinKit` for displaying a loading animation.
+
+## Features
+
+- **Customizable Loading Screen:** Easily toggle a loading screen with customizable indicators.
+- **Responsive Design:** Adapts to different screen sizes and orientations.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+- **Flutter SDK:** Ensure you have Flutter installed on your machine. You can download it from [here](https://flutter.dev/docs/get-started/install).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Add the following dependencies to your `pubspec.yaml` file:
+
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  loading_overlay: ^0.3.4
+  flutter_spinkit: ^5.1.0
+  common_loader: ^0.0.1  # Add the appropriate version
